@@ -24,4 +24,4 @@ Console.WriteLine("Способ 2");
 System.Random numberGenerator1 = new System.Random();
 int number1 = numberGenerator1.Next(10,100);
 Console.WriteLine(number1);
-Console.WriteLine((number1/10>number1%10)?(int)(number1/10>number1/10):(int)(number1%10));
+Console.WriteLine((number1/10>number1%10)?(int)(number1/10):(int)(number1%10));
