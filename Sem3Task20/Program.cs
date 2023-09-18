@@ -20,5 +20,5 @@ int x1=ReadData("Введите координату Х1: ");
 int x2=ReadData("Введите координату Х2: ");
 int y1=ReadData("Введите координату Y1: ");
 int y2=ReadData("Введите координату Y2: ");
-double res=Calc2DDist((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
-PrintResult("Расстояние между точками равняется:"+ "{res }");
+double res=Calc2DDist (x1,x2,y1,y2);
+PrintResult("Расстояние между точками равняется:"+ $"{res }");
