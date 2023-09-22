@@ -30,5 +30,5 @@ int x=ReadData ("Введите координату Х:");
 int Y=ReadData ("Введите координату Y:");
 int res =QuterTest(x,Y);
 
-PrintResult("Точка находится в четверти №"+ res);
+;
 
