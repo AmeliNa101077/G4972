@@ -9,8 +9,8 @@ int ReadData(string msg)
 // Генерация массива
 int[] GenArr(int len)
 {
-    int[] arr = num int[len];
-    Random rnd = num Random();
+    int[] arr = new int[len];
+    Random rnd = new Random();
     for (int i=0;i<len;i++)
     {
         arr[i]=rnd.Next (0, 2);
@@ -24,8 +24,8 @@ void PrintArr(int[] arr)
     Console.Write("[");
     for (int i=0;i < arr.Length-1; i++)
         Console.Write ( arr[i]+",");   
-}   Console.WritLine ( arr[arr.Length-1] +"]");
-    PrintArry(GenArr);
+}   Console.WritLine(arr[arr.Length-1] +"]");
+    
 
 
 
