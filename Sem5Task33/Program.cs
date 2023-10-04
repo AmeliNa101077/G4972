@@ -10,6 +10,7 @@ int[] GenArray(int num,int LowBorder,int highBorder)
     }
     return array;
 }
+}
 
 //печать массива
 void PrintArr(int[] arr)
