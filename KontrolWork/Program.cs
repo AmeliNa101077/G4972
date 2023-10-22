@@ -31,3 +31,4 @@ string [] symbol(string [] stringArray)
         j++;
     }
   }
+}
