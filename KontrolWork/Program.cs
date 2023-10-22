@@ -31,5 +31,3 @@ string [] symbol(string [] stringArray)
         j++;
     }
   }
-  return rez;
-}
